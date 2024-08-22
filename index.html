@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Células: RAPAGINATED!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="overlay"></div> 
+
+    <div id="modal">
+            <p><b>AVISO:</b>  Devido a uma questão de falta de habilidade e experiência dos criadores (que não tem noção alguma de HTML ou CSS), nós tivemos que fazer um jogo alternativo ao “Células: CANCER!” Desta vez um pouco mais simples, espero que gostem.</p>
+           <img src="./Assets/ok.png" alt="" id="okBtn">
+    </div>
+
+    <div id="start">
+        <img src="./Assets/START.png" alt="">
+    </div>
+
+    <div id="quiz">
+        <h1 id="questao"></h1>
+        <p id="pergunta"></p>
+
+        <div id="containers">
+            <div id="op1" class="choices">
+                <img src="./Assets/ButtonA.png" alt="A" class="op_img">
+                <p id="a"></p>           
+            </div>
+
+            <div id="op2" class="choices">
+                <img src="./Assets/ButtonB.png" alt="B" class="op_img">
+                <p id="b"></p>
+            </div>
+            
+            <div id="op3" class="choices">
+                <img src="./Assets/ButtonC.png" alt="C" class="op_img">
+                <p id="c"></p>
+            </div>
+
+            <div id="op4" class="choices">
+                <img src="./Assets/ButtonD.png" alt="D" class="op_img">
+                <p id="d"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="final">
+        <h1 id="result"></h1>
+        <h3 id="titulo-correcao">CORREÇÃO</h3>
+
+        <div id="correcao">
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 1</b></p>
+                <p>Qual a função dos neurônios?</p>
+                <p><b>Resposta correta:</b> D - Conduz impulsos nervosos.</p>
+            </div>
+
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 2</b></p>
+                <p>Quais células compõem a Glia?</p>
+                <p><b>Resposta correta:</b> A - Microglia, astrocitos, oligodendrocitos, células de schwann.</p>
+            </div>
+
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 3</b></p>
+                <p>O que compõe o sistema nervoso periférico?</p>
+                <p><b>Resposta correta:</b> C - Gânglios e nervos.</p>
+            </div>
+
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 4</b></p>
+                <p>Qual a função da bainha de mielina do neurônio?</p>
+                <p><b>Resposta correta:</b> B - Ajudar o neurônio a conduzir impulsos elétricos com mais velocidade e precisão.</p>
+            </div>
+
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 5</b></p>
+                <p>De qual célula o tecido nervoso se origina?</p>
+                <p><b>Resposta correta:</b> A - Ectoderme. </p>
+            </div>
+
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 6</b></p>
+                <p>O que é o ato reflexo?</p>
+                <p><b>Resposta correta:</b> B - Ato involuntário comandado pela medula espinhal.</p>
+            </div>
+
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 7</b></p>
+                <p>A bexiga é um belo exemplo de qual tipo de músculo?</p>
+                <p><b>Resposta correta:</b> D - Músculo liso.</p>
+            </div>
+
+            <div class="questao_correcao">
+                <p><b>QUESTÃO 8</b></p>
+                <p>Para que um movimento ocorra, a Actina deve deslizar sobre a miosina. Verdadeiro ou falso?</p>
+                <p><b>Resposta correta:</b> B - Falso. A miosina deve deslizar sobre a actina. </p>
+            </div>
+        </div>
+        <img src="./Assets/restart.png" alt="" id="restart">
+    </div>
+
+    <audio src="./Assets/Sum 41 - In Too Deep (8 bit).mp3" id="myAudio"></audio>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
